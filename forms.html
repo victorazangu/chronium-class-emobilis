@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>forms</title>
+    <link rel="stylesheet" href="CSS/forms.css">
+</head>
+<body>
+<fieldset>
+<legend><h1>fill in the details</h1></legend>
+<form action="#">
+    <div>
+        <label for="fname">Full name</label><br>
+        <input type="text" name="fname" placeholder="john" class="fname">
+    </div>
+    <div>
+        <label for="sname">second name</label><br>
+        <input type="text" name="sname" placeholder="doe" class="fname">
+    </div>
+    <div>
+        <label for="mail">email address</label><br>
+        <input type="email" name="mail" placeholder="johndoe@example.com" class="fname">
+    </div>
+    <div>
+        <label for="phone">phone number</label><br>
+        <input type="tel" name="phone" placeholder="+254726262626" class="fname">
+    </div>
+    <div>
+        <label for="date">date of birth</label><br>
+         <input type="date" name="DOB" class="fname">
+    </div>
+    <div>
+        <label for="link">github link</label><br>
+        <input type="url" name="url" placeholder="www.github.com" class="fname">
+    </div>
+    <div>
+        <label for="location">locations</label><br>
+        <select name="locations" class="location">
+            <option value="nairabi">nairobi</option>
+            <option value="mombasa">mombasa</option>
+            <option value="kisumu">kisumu</option>
+            <option value="nakuru">nakuru</option>
+            <option value="thika">thika</option>
+            <option value="muranga">muranga</option>
+        </select>
+    </div>
+    <div>
+        <label for="gender">gender</label><br>
+        <input type="radio" name="gender" value="female">
+        <label for="radio">female</label>
+        <input type="radio" name="gender" value="male">
+        <label>male</label>
+    </div>
+    <div>
+        <label for="stack">Stacks</label><br>
+        <input type="checkbox" name="stack" value="frontend">
+        <label for="frontend">frontend</label>
+        <input type="checkbox" name="stack" value="backend">
+        <label for="backend">backend</label>
+        <input type="checkbox" name="stack" value="fullstack">
+        <label>fullstack</label>
+    </div>
+    <div>
+        <label for="textarea">any other information</label><br>
+        <textarea name="text" id="textarea1" cols="30" rows="10"></textarea>
+    </div>
+    <div>
+        <input type="submit" value="submit" class="">
+    </div>
+
+
+</form>
+</fieldset>
+</body>
+</html>

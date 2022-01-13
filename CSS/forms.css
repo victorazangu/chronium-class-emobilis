@@ -1,0 +1,44 @@
+body{
+    background-color: antiquewhite;
+}
+legend{
+    text-align: center;
+    font-family: Algerian;
+    font-size: large;
+    color: blue;
+}
+fieldset{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.location{
+    margin: 5px;
+}
+label{
+    display: inline-block;
+    padding: 12px;
+}
+form{
+    border: 2px solid black;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aqua;
+    margin-bottom: 20px;
+    margin-bottom: 15px;
+}
+#textarea1{
+    margin: 5px;
+}
+input{
+
+}
+.fname{
+    width: 60%;
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+
+
+}
