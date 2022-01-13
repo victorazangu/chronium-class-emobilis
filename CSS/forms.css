@@ -42,3 +42,12 @@ input{
 
 
 }
+.submit{
+    width: 40%;
+    margin:10px;
+    background-color: brown;
+    color: white;
+    font-size: larger;
+    padding: 5px;
+
+}
